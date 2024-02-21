@@ -1,0 +1,96 @@
+*{
+    margin:0;
+}
+.nav-bar{
+    height:50px;
+    width:100%;
+    background-color: #303F9F;
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    position:sticky;
+
+}
+.nav-bar-buttons{
+    display:flex;
+    justify-content:flex-end;
+    margin-left: 500px;
+}
+
+h2{
+    
+    text-align:center;
+    color:white;
+    padding:15px;
+
+}
+.nav-btn{
+    border-radius:5px;
+    border: solid 1px white;
+    background-color: #37474F;;
+    color:white;
+    height: 30px;
+    margin-top: 9px;
+    margin-right: 20px;
+    
+}
+.main{
+    background-image: url("productivity.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+.main-content{
+    background-color: rgba(255,255,255,0.8);
+    width:480px;
+    height:400px;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left:20px;
+    border-radius: 8px;
+}
+.search{
+    font-size: 1.5rem;
+    background-color: #E0E0E0;
+    border-radius: 6px;
+    border: solid 2px black;
+    color: black;
+    font-weight: 500;
+    width: 350px;
+}
+.add{
+    font-size:1.5rem;
+    border-radius:6px;
+    border: solid 2px black;
+    background-color: rgba(47, 161, 47,0.8);
+    color:white;
+    
+    
+}
+.list-items{
+    padding:10px;
+    font-family: system-ui;
+    font-size:1.5rem;
+}
+.remove{
+    background-color: red;
+    color:white;
+    border:1px solid white ;
+    border-radius: 3px;
+    margin-left: 5px;
+
+}
+
+.footer{
+    height:200px;
+    background-color: #303F9F;
+    color:white;
+
+}
+.foot-panel1{
+    height:100px;
+    margin-left: 300px;
+    padding: 30px 0 0;
+    line-height: 50px;
+    
+}
